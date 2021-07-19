@@ -1,0 +1,3327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid='Excel.Sheet'?>
+<Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>1</Index>
+    <RGB>#ffffff</RGB>
+   </Color>
+   <Color>
+    <Index>2</Index>
+    <RGB>#154a93</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#ecf4ff</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#e7f1ff</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <Styles>
+  <Style ss:ID="s1">
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#154a93" />
+  </Style>
+  <Style ss:ID="s2">
+   <ss:Interior ss:Color="#e7f1ff" ss:Pattern="Solid" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#154a93" />
+  </Style>
+  <Style ss:ID="s3">
+   <ss:Interior ss:Color="#e7f1ff" ss:Pattern="Solid" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#154a93" />
+  </Style>
+  <Style ss:ID="s4">
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000" />
+  </Style>
+  <Style ss:ID="s5">
+   <ss:NumberFormat ss:Format="Standard" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000" />
+  </Style>
+  <Style ss:ID="s6">
+   <ss:Interior ss:Color="#ecf4ff" ss:Pattern="Solid" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000" />
+  </Style>
+  <Style ss:ID="s7">
+   <ss:NumberFormat ss:Format="Standard" />
+   <ss:Interior ss:Color="#ecf4ff" ss:Pattern="Solid" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000" />
+  </Style>
+  <Style ss:ID="s8">
+   <ss:NumberFormat ss:Format="Standard" />
+   <ss:Interior ss:Color="#e7f1ff" ss:Pattern="Solid" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#154a93" />
+  </Style>
+  <Style ss:ID="s9">
+   <ss:Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000" />
+  </Style>
+ </Styles>
+ <ss:Worksheet ss:Name="Sheet1">
+  <Table>
+   <Column ss:AutoFit="0" ss:Width="12" />
+   <Column ss:AutoFit="0" ss:Width="12" />
+   <Column ss:AutoFit="0" ss:Width="27" />
+   <Column ss:AutoFit="0" ss:Width="150" />
+   <Column ss:AutoFit="0" ss:Width="41.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="59.25" />
+   <Column ss:AutoFit="0" ss:Width="59.25" />
+   <Column ss:AutoFit="0" ss:Width="79.5" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="60" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Column ss:AutoFit="0" ss:Width="56.25" />
+   <Row>
+    <Cell ss:StyleID="s1" />
+    <Cell ss:StyleID="s1" />
+    <Cell ss:StyleID="s1" ss:MergeAcross="4"><Data ss:Type="String">صنعت</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="2"><Data ss:Type="String">ابتدای دوره (داخل بورس)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">تغییرات (داخل بورس)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="2"><Data ss:Type="String">انتهای دوره (داخل بورس)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">ابتدای دوره (خارج بورس)</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تغییرات (خارج بورس)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">انتهای دوره (خارج بورس)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="2"><Data ss:Type="String">ابتدای دوره (جمع سرمایه گذاری)</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تغییرات (جمع سرمایه گذاری)</Data></Cell>
+    <Cell ss:StyleID="s1" ss:MergeAcross="2"><Data ss:Type="String">انتهای دوره (جمع سرمایه گذاری)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s1" />
+    <Cell ss:StyleID="s1" />
+    <Cell ss:StyleID="s1"><Data ss:Type="String">ردیف</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">صنعت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">میاندوره ای</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">سال مالی</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تاریخ</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">ارزش بازار</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">ارزش بازار</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">ارزش بازار</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">درصد به کل</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">تعداد شرکت</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">بهای تمام شده</Data></Cell>
+    <Cell ss:StyleID="s1"><Data ss:Type="String">درصد به کل</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. میراث فرهنگی و گردشگری</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/11/14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">آژانسهای مسافرتی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2409</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2409</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">207500</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">20750</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.1597444089456869009584664537</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">207500</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">20750</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">انبوه سازی املاک ومستغلات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6068</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">731</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">99.84025559105431309904153355</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6068</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">731</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">رایانه و فعالیتهای وابسته به آن</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">670</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">670</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">خدمات فنی و مهندسی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">11500</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">11500</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">سایر فعالیتها</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/09/30</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/11/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1252</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">228897</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">23013</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1252</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">228897</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">23013</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1252</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">228897</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">23013</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1252</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">228897</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">23013</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. توسعه صنعتی ایران</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/07/13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">تامین وجوه بیمه و بازنشستگی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">243246</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">375089</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">768</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-50105</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">24401</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">324984</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">243246</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">16.084049716235007534666408348</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">768</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">24401</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">استخراج کانه های فلزی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">83038</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">111141</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8895</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">16701</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9193</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">127842</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">83044</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5.4910823801214407049194527961</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8895</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9193</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">انواع فرآورده های غذایی و آشامیدنی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18538</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">49961</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-70</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7056</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1846</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">57017</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7962</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-6180</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">26500</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1.7522480019413585410188032741</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-6250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2024</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">محصولات کاغذی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8670</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">867</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8670</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.573282648182323718891812241</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">867</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">فرآورده های نفتی کک وسوخت هسته ای</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1837</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1928</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1969</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1837</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.1214671539458971939566619477</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">مواد و محصولات شیمیایی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">95252</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">137689</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9172</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9525</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">146861</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">66493</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6649</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">161745</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10.694994455622831593097597569</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">16174</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">لاستیک و پلاستیک</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1787</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2454</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-1786</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-2454</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">20878</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2087</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">22665</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1.4986679609056940125355160833</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-1786</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2087</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">سایر محصولات کانی غیر فلزی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">12984</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10675</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3103</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1298</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">13778</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">12984</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.8585353983851546904372883665</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1298</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">فلزات اساسی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">528208</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">374992</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8544</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">12361</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">53675</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">387353</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">528208</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">34.926468400356268386206039238</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8544</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">53675</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">ماشین آلات و تجهیزات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">20021</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">14776</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">408</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2002</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5184</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">20021</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.3238398961082241264051871831</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2002</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر ماشین آلات و دستگاههای برقی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">20747</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">27012</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-752</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2074</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">26260</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">44700</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4470</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">65447</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4.3275235842662676390210421842</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6544</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خودرو و ساخت قطعات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">42695</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">38831</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8118</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4269</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">46949</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">42695</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2.8231029601089170908980304071</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4269</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">شرکتهای معظم چند رشته ای</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">20134</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">23398</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1895</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">25293</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">20134</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1.3313117460787665232027390612</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">پیمانکاری صنعتی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24544</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">19938</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-972</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2454</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">189966</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24544</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.6229122626282529822930380211</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2454</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14359</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14879</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8540</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">9773</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2289</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">24652</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">54300</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5430</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">68659</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4.5399092666147824931249061886</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8540</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7719</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">انبوه سازی املاک ومستغلات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">109981</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">75103</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9513</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10998</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">84616</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">109981</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">7.2722259434533039131995850148</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10998</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">رایانه و فعالیتهای وابسته به آن</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7523</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8035</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-535</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2510</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">698</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10545</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14315</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1431</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21838</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1.4439845987319014271233443736</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-535</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2129</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خدمات فنی و مهندسی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8443</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8388</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">844</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8388</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8443</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">844</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">پست و مخابرات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5125</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5306</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">453</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">512</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5759</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5125</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.3388781513188476423668440294</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">512</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">مشارکتهای مدنی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/07/13</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">45000</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4500</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">45000</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2.975515474994759786635703673</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4500</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1250019</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1291207</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">32799</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">35209</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">128274</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1487416</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">262324</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-6180</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25612</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1512343</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">99.99999999999999999999999999</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">26619</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153886</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1250019</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1291207</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">32799</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">35209</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">128274</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1487416</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">262324</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-6180</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">25612</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1512343</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">99.99999999999999999999999999</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">26619</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153886</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. غدیر</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1388/01/17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر صنایع</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1387/09/30</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1388/01/17</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. نیرو</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/06/14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">کشاورزی،دامپروری و خدمات وابسته به آن</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3379</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">337</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3379</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9.151477398911247731766107846</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">337</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">انواع فرآورده های غذایی و آشامیدنی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1090</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">406</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">406</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1103</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2.9872978902039379248706768139</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">محصولات کاغذی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">595</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">595</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.6114616905451886358096579368</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">انتشار،چاپ و تکثیر</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2499</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">249</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2499</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6.7681391002897922704005633345</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">249</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">لاستیک و پلاستیک</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5765</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">576</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5769</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">15.624407550849064268883893508</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">576</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر محصولات کانی غیر فلزی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1882</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">651</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-56</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">188</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">595</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1964</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5.3191777482869755978658288871</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">196</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">ساخت محصولات فلزی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5749</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">574</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5749</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">15.570240771334940281125585678</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">574</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">ماشین آلات و تجهیزات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7645</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">764</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7645</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">20.705251469273894320613167944</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">764</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خودرو و ساخت قطعات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">141</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-108</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-28</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.4035425073802237087993933321</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-108</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر تجهیزات حمل و نقل</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.0189583728299433957154077404</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">حمل و نقل انبارداری و ارتباطات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5002</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5002</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">13.547111556482409338352788235</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.0947918641497169785770387022</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">انبوه سازی املاک ومستغلات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5.4166779514123987758307829808</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">خدمات فنی و مهندسی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1017</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-240</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1017</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2.7543807382932047775099531457</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-240</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">پست و مخابرات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-10</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-9</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0270833897570619938791539149</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-10</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر فعالیتها</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">11 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3127</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1142</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-118</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-92</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">33796</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-245</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3348</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">36923</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-363</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3648</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3127</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1142</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-118</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-92</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">33796</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-245</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3348</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">36923</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-363</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3648</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. توکا فولاد</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/06/14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">تامین وجوه بیمه و بازنشستگی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">292</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">254</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">455</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0474307888365644472358535066</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">292</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">فعالیتهای جنبی واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1977</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1977</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.5152234589554280889301229813</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">استخراج کانه های فلزی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0002606087298712332265706237</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">مواد و محصولات شیمیایی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">436</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">439</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.1144072324134713864645037879</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">سایر محصولات کانی غیر فلزی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">179</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">179</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4038</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">403</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4038</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.0523380512200397688921783502</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">422</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">فلزات اساسی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">15728</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">16975</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-2640</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-1328</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1308</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">15647</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21224</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2122</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">36952</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">9.630013786201810188237685586</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-2640</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3430</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">ماشین آلات و تجهیزات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1361</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1361</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.354688481354748421362618805</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">وسایل اندازه گیری پزشکی و اپتیکی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خودرو و ساخت قطعات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">568</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">470</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-454</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-394</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">568</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.1480257585668604726921142404</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-454</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر تجهیزات حمل و نقل</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">189999</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18999</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">189999</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">49.515398066804441815191925299</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18999</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">شرکتهای معظم چند رشته ای</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">326</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">317</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">357</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24857</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2485</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24882</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6.4844664166560251435302579766</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">326</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2520</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">پیمانکاری صنعتی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">32283</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3228</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">32283</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8.413231626433022253379443705</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3228</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">حمل و نقل انبارداری و ارتباطات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24970</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">49556</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4205</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2497</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">53761</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">24970</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6.5073999848846936674684728589</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2497</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">463</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">516</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-197</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-213</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">303</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18438</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1843</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18901</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4.9257656032961792154113578497</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-197</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1869</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خدمات فنی و مهندسی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">پست و مخابرات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1080</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1083</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1083</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1080</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">سایر صنایع</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">2 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/03/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/14</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">47164</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4716</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">47164</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">12.29135013564684389797689443</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4716</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">42373</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">67839</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-1294</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4225</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4105</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">72064</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">341344</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">34129</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">383717</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-1294</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">38234</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">42373</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">67839</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-1294</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4225</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4105</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">72064</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">341344</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">34129</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">383717</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-1294</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">38234</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. صنعت و معدن</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/08/04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">تامین وجوه بیمه و بازنشستگی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1677</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1459</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-68</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1391</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">9250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">925</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10927</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.3501390686883964162575782822</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1092</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">استخراج زغال سنگ</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">995</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">550</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">593</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">995</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0318832592060908240300439636</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">استخراج کانه های فلزی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10191</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10346</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2513</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2505</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1270</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">12851</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10191</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.3265550699188659172765608377</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2513</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1270</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">انواع فرآورده های غذایی و آشامیدنی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">46378</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">162247</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1771</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3315</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4814</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">165562</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">46387</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.4864007485356131198810546149</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1771</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4814</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">مواد و محصولات شیمیایی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">76986</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">200976</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">6837</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7698</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">207813</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5601</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">560</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">82587</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2.6463746010587164665017495738</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">8258</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">لاستیک و پلاستیک</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">238</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">244</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0078186082877247849882720876</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر محصولات کانی غیر فلزی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1124343</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">553368</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-24934</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">112434</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">528434</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">210576</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21057</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1334919</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">42.77544572475935349081633961</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">133491</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">فلزات اساسی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">34390</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">37228</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11076</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9248</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4546</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">46476</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6536</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">653</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">40926</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.3114113228828875017623912124</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11076</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5199</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">ساخت محصولات فلزی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21502</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">19301</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-4777</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2150</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14524</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2199</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">219</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">23701</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.7594624386367423319960522437</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2369</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">ماشین آلات و تجهیزات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">14475</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6551</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-1193</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1447</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5358</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">93391</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9339</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">107866</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3.4564016457529576128891680232</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10786</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">سایر ماشین آلات و دستگاههای برقی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">75607</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">206260</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-11284</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7560</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">194976</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1071</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">76678</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2.4570296978941027185685538138</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7667</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">رادیو و تلویزیون و وسایل ارتباطی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">41159</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10397</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-1732</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4115</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8665</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">41159</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.3188774529281328907061100501</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4115</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">وسایل اندازه گیری پزشکی و اپتیکی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18705</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1870</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18705</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.5993732295979184557607762212</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1870</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">خودرو و ساخت قطعات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">41875</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">33961</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-4145</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4187</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">29816</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">257</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">42132</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.3500557556492649226470475141</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">4212</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">شرکتهای معظم چند رشته ای</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21783</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">24720</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-8029</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-10649</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1375</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14071</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21783</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.6980030505389712762275855881</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-8029</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1375</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">پیمانکاری صنعتی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">25308</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">23916</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-6961</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2530</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">16955</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">25308</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.8109563055153231905048770171</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2530</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">760895</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">619402</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">28359</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3206</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">78925</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">622608</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">323245</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">32324</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1084140</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">34.739614709237493431087299248</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">28359</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">111249</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">انبوه سازی املاک ومستغلات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10371</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9557</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-346</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">382</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1002</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9939</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10371</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.3323228957048923980056140171</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-346</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1002</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">خدمات فنی و مهندسی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">19396</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">18482</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-3142</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1939</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">15340</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">7000</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">26396</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.8458196080441943629115984568</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2639</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">پست و مخابرات</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">15878</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">16364</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-4930</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-5137</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1094</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11227</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">15878</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.5087863212807136723105910099</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">-4930</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1094</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">استخراج و فعالیتهای خدماتی جانبی نفت وگاز</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14563</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">13248</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-778</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1456</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">12470</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14563</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.4666491495661313269844525052</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1456</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">فعالیتهای جنبی واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">28316</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2831</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">28316</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.9073430830951434906881657032</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2831</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">منسوجات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2053</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2053</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.0657852574372909163152565401</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">محصولات کاغذی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">53722</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5372</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">53722</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1.7214396493161922095899716736</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5372</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">حمل و نقل انبارداری و ارتباطات</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">730</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">730</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.0233917379099962829567156718</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">سایر صنایع</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">1 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1390/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/08/04</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0.0026596085568899883361745216</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2357778</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1968338</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">30414</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-49264</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">238808</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1919074</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">762982</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">76291</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3120760</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">30414</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">315099</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">2357778</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1968338</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">30414</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">-49264</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">238808</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1919074</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">762982</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">76291</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3120760</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">30414</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">315099</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: گسترش نفت و گاز پارسیان</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/09/27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">مواد و محصولات شیمیایی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/09/27</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">146647</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">14664</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3859283</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">385928</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4005930</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">400592</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">رایانه و فعالیتهای وابسته به آن</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">12 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/09/27</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">146647</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">14664</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3859283</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">385928</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4005930</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">400592</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">146647</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">14664</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">153569</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3859283</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">385928</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4005930</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">400592</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s2" ss:MergeAcross="26"><Data ss:Type="String">پرتفوی شرکت: سر. رنا</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2" ss:MergeAcross="25"><Data ss:Type="String">تاریخ: 1389/01/15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">استخراج کانه های فلزی</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">6 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/01/15</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">34786</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">36946</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-55</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3462</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3473</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">40408</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">34786</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">24.253791180059264423914938121</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">-55</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3473</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s6" />
+    <Cell ss:StyleID="s6"><Data ss:Type="String">واسطه گریهای مالی</Data></Cell>
+    <Cell ss:StyleID="s6"><Data ss:Type="String">6 ماهه</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="String">1389/01/15</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10215</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9624</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">317</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">1034</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9941</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">97174</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">9717</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">107389</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">74.874673174132822032421126024</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s7"><Data ss:Type="Number">10751</Data></Cell>
+    <Cell ss:StyleID="s7" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s4" />
+    <Cell ss:StyleID="s4"><Data ss:Type="String">فرآورده های نفتی کک وسوخت هسته ای</Data></Cell>
+    <Cell ss:StyleID="s4"><Data ss:Type="String">6 ماهه</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/06/31</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="String">1389/01/15</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5" />
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0.871535645807913543663935855</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s5" />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">45001</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">46570</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3779</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4507</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">50349</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">98424</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">9842</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">143425</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">14349</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">45001</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">46570</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">3779</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">4507</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">50349</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">98424</Data></Cell>
+    <Cell ss:StyleID="s2"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">9842</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">143425</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">100.00000000000000000000000000</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">14349</Data></Cell>
+    <Cell ss:StyleID="s8"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s3" />
+    <Cell ss:StyleID="s9"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s9"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s9"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s9"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s9"><Data ss:Type="String" /></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3698298</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3375096</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">208527</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">147426</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">390658</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">3683522</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">1500122</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4081755</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">558163</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">277</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">5198420</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">599.99999999999999999999999996</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">4290282</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">296</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">948821</Data></Cell>
+    <Cell ss:StyleID="s5"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+ </ss:Worksheet>
+</Workbook>
